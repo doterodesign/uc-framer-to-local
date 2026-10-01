@@ -1,0 +1,15 @@
+{
+  "name": "uc-framer-to-local",
+  "description": "Capture a Framer site as data and rebuild it 1:1 in a codebase you own.",
+  "owner": {
+    "name": "Dimitri Otero",
+    "url": "https://github.com/doterodesign"
+  },
+  "plugins": [
+    {
+      "name": "uc-framer-to-local",
+      "source": "./",
+      "description": "Capture a published Framer site as data, then rebuild it 1:1 in a local codebase on the stack you choose."
+    }
+  ]
+}

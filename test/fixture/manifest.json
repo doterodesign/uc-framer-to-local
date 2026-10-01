@@ -1,0 +1,27 @@
+{
+  "site": { "url": "https://example.framer.website/", "projectId": "fixture", "projectName": "Fixture", "cliVersion": "0.0.0", "capturedAt": "2026-10-01" },
+  "sitemap": ["https://example.framer.website/", "https://example.framer.website/work/alpha"],
+  "pages": [
+    {
+      "nodeId": "home", "path": "/", "slug": "home", "draft": false,
+      "breakpoints": [
+        { "name": "Desktop", "isPrimary": true, "canvasWidth": "1200px", "minWidth": 1200, "mediaQuery": "(min-width: 1200px)", "pageEffects": false },
+        { "name": "Tablet", "isPrimary": false, "canvasWidth": "810px", "minWidth": 810, "mediaQuery": "(min-width: 810px) and (max-width: 1199.98px)", "pageEffects": false },
+        { "name": "Phone", "isPrimary": false, "canvasWidth": "390px", "minWidth": 0, "mediaQuery": "(max-width: 809.98px)", "pageEffects": false }
+      ],
+      "urls": [{ "url": "https://example.framer.website/", "path": "/", "slug": "home" }],
+      "representativeUrl": "https://example.framer.website/"
+    },
+    {
+      "nodeId": "work", "path": "/work/:slug", "slug": "work-detail", "draft": false, "collection": "work",
+      "breakpoints": [
+        { "name": "Desktop", "isPrimary": true, "canvasWidth": 1440, "minWidth": 1280, "mediaQuery": "(min-width: 1280px)", "pageEffects": false },
+        { "name": "Phone", "isPrimary": false, "canvasWidth": 390, "minWidth": 0, "mediaQuery": "(max-width: 1279.98px)", "pageEffects": false }
+      ],
+      "urls": [{ "url": "https://example.framer.website/work/alpha", "path": "/work/alpha", "slug": "work-alpha" }],
+      "representativeUrl": "https://example.framer.website/work/alpha"
+    }
+  ],
+  "components": [],
+  "collections": [{ "nodeId": "work", "name": "Work", "slug": "work", "itemCount": 1 }]
+}

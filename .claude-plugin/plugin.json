@@ -1,0 +1,12 @@
+{
+  "name": "uc-framer-to-local",
+  "version": "0.1.0",
+  "description": "Capture a published Framer site as data (project export plus live measurements), then rebuild it 1:1 in a local codebase on the stack you choose.",
+  "author": {
+    "name": "Dimitri Otero",
+    "url": "https://github.com/doterodesign"
+  },
+  "repository": "https://github.com/doterodesign/uc-framer-to-local",
+  "license": "MIT",
+  "keywords": ["framer", "website", "migration", "capture", "parity", "playwright"]
+}
